@@ -17,5 +17,6 @@ int main(int argc, const char* argv[]) {
     auto result = t.get_matrix();
     auto mat = display_img(result, atoi(argv[2]));
     cv::imwrite("res/image/output/yo_freq.jpeg", mat);
+
     return 0;
 }

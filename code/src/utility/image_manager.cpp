@@ -71,6 +71,7 @@ CMatrix Filters::gaussian_low_pass(int height, int width, double fc) {
             double val = exp(dist / func);
 
             filter[x][y] = val;
+            cout << filter[x][y] << endl;
         }
     }
     return filter;

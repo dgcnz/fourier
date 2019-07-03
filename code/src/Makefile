@@ -160,49 +160,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/image.dir/rule:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/image.dir/rule
-.PHONY : src/CMakeFiles/image.dir/rule
+src/CMakeFiles/image_test.dir/rule:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/image_test.dir/rule
+.PHONY : src/CMakeFiles/image_test.dir/rule
 
 # Convenience name for target.
-image: src/CMakeFiles/image.dir/rule
+image_test: src/CMakeFiles/image_test.dir/rule
 
-.PHONY : image
+.PHONY : image_test
 
 # fast build rule for target.
-image/fast:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/build
-.PHONY : image/fast
+image_test/fast:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/build
+.PHONY : image_test/fast
 
 # Convenience name for target.
-src/CMakeFiles/audio.dir/rule:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/audio.dir/rule
-.PHONY : src/CMakeFiles/audio.dir/rule
+src/CMakeFiles/main.dir/rule:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+.PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-audio: src/CMakeFiles/audio.dir/rule
+main: src/CMakeFiles/main.dir/rule
 
-.PHONY : audio
+.PHONY : main
 
 # fast build rule for target.
-audio/fast:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/build
-.PHONY : audio/fast
+main/fast:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 # Convenience name for target.
-src/CMakeFiles/generic.dir/rule:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generic.dir/rule
-.PHONY : src/CMakeFiles/generic.dir/rule
+src/CMakeFiles/hough.dir/rule:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/hough.dir/rule
+.PHONY : src/CMakeFiles/hough.dir/rule
 
 # Convenience name for target.
-generic: src/CMakeFiles/generic.dir/rule
+hough: src/CMakeFiles/hough.dir/rule
 
-.PHONY : generic
+.PHONY : hough
 
 # fast build rule for target.
-generic/fast:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/build
-.PHONY : generic/fast
+hough/fast:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/build
+.PHONY : hough/fast
 
 algorithms/fft.o: algorithms/fft.cpp.o
 
@@ -210,9 +210,9 @@ algorithms/fft.o: algorithms/fft.cpp.o
 
 # target to build an object file
 algorithms/fft.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/algorithms/fft.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/algorithms/fft.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/algorithms/fft.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/algorithms/fft.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/algorithms/fft.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/algorithms/fft.cpp.o
 .PHONY : algorithms/fft.cpp.o
 
 algorithms/fft.i: algorithms/fft.cpp.i
@@ -221,9 +221,9 @@ algorithms/fft.i: algorithms/fft.cpp.i
 
 # target to preprocess a source file
 algorithms/fft.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/algorithms/fft.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/algorithms/fft.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/algorithms/fft.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/algorithms/fft.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/algorithms/fft.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/algorithms/fft.cpp.i
 .PHONY : algorithms/fft.cpp.i
 
 algorithms/fft.s: algorithms/fft.cpp.s
@@ -232,9 +232,9 @@ algorithms/fft.s: algorithms/fft.cpp.s
 
 # target to generate assembly for a file
 algorithms/fft.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/algorithms/fft.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/algorithms/fft.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/algorithms/fft.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/algorithms/fft.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/algorithms/fft.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/algorithms/fft.cpp.s
 .PHONY : algorithms/fft.cpp.s
 
 applications/fourier_audio.o: applications/fourier_audio.cpp.o
@@ -243,9 +243,9 @@ applications/fourier_audio.o: applications/fourier_audio.cpp.o
 
 # target to build an object file
 applications/fourier_audio.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/applications/fourier_audio.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/applications/fourier_audio.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/applications/fourier_audio.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/applications/fourier_audio.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/applications/fourier_audio.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/applications/fourier_audio.cpp.o
 .PHONY : applications/fourier_audio.cpp.o
 
 applications/fourier_audio.i: applications/fourier_audio.cpp.i
@@ -254,9 +254,9 @@ applications/fourier_audio.i: applications/fourier_audio.cpp.i
 
 # target to preprocess a source file
 applications/fourier_audio.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/applications/fourier_audio.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/applications/fourier_audio.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/applications/fourier_audio.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/applications/fourier_audio.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/applications/fourier_audio.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/applications/fourier_audio.cpp.i
 .PHONY : applications/fourier_audio.cpp.i
 
 applications/fourier_audio.s: applications/fourier_audio.cpp.s
@@ -265,91 +265,91 @@ applications/fourier_audio.s: applications/fourier_audio.cpp.s
 
 # target to generate assembly for a file
 applications/fourier_audio.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/applications/fourier_audio.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/applications/fourier_audio.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/applications/fourier_audio.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/applications/fourier_audio.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/applications/fourier_audio.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/applications/fourier_audio.cpp.s
 .PHONY : applications/fourier_audio.cpp.s
 
-main/audio.o: main/audio.cpp.o
+main/hough.o: main/hough.cpp.o
 
-.PHONY : main/audio.o
-
-# target to build an object file
-main/audio.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/main/audio.cpp.o
-.PHONY : main/audio.cpp.o
-
-main/audio.i: main/audio.cpp.i
-
-.PHONY : main/audio.i
-
-# target to preprocess a source file
-main/audio.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/main/audio.cpp.i
-.PHONY : main/audio.cpp.i
-
-main/audio.s: main/audio.cpp.s
-
-.PHONY : main/audio.s
-
-# target to generate assembly for a file
-main/audio.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/main/audio.cpp.s
-.PHONY : main/audio.cpp.s
-
-main/generic.o: main/generic.cpp.o
-
-.PHONY : main/generic.o
+.PHONY : main/hough.o
 
 # target to build an object file
-main/generic.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/main/generic.cpp.o
-.PHONY : main/generic.cpp.o
+main/hough.cpp.o:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/main/hough.cpp.o
+.PHONY : main/hough.cpp.o
 
-main/generic.i: main/generic.cpp.i
+main/hough.i: main/hough.cpp.i
 
-.PHONY : main/generic.i
+.PHONY : main/hough.i
 
 # target to preprocess a source file
-main/generic.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/main/generic.cpp.i
-.PHONY : main/generic.cpp.i
+main/hough.cpp.i:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/main/hough.cpp.i
+.PHONY : main/hough.cpp.i
 
-main/generic.s: main/generic.cpp.s
+main/hough.s: main/hough.cpp.s
 
-.PHONY : main/generic.s
+.PHONY : main/hough.s
 
 # target to generate assembly for a file
-main/generic.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/main/generic.cpp.s
-.PHONY : main/generic.cpp.s
+main/hough.cpp.s:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/main/hough.cpp.s
+.PHONY : main/hough.cpp.s
 
-main/image.o: main/image.cpp.o
+main/image_test.o: main/image_test.cpp.o
 
-.PHONY : main/image.o
+.PHONY : main/image_test.o
 
 # target to build an object file
-main/image.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/main/image.cpp.o
-.PHONY : main/image.cpp.o
+main/image_test.cpp.o:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/main/image_test.cpp.o
+.PHONY : main/image_test.cpp.o
 
-main/image.i: main/image.cpp.i
+main/image_test.i: main/image_test.cpp.i
 
-.PHONY : main/image.i
+.PHONY : main/image_test.i
 
 # target to preprocess a source file
-main/image.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/main/image.cpp.i
-.PHONY : main/image.cpp.i
+main/image_test.cpp.i:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/main/image_test.cpp.i
+.PHONY : main/image_test.cpp.i
 
-main/image.s: main/image.cpp.s
+main/image_test.s: main/image_test.cpp.s
 
-.PHONY : main/image.s
+.PHONY : main/image_test.s
 
 # target to generate assembly for a file
-main/image.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/main/image.cpp.s
-.PHONY : main/image.cpp.s
+main/image_test.cpp.s:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/main/image_test.cpp.s
+.PHONY : main/image_test.cpp.s
+
+main/main.o: main/main.cpp.o
+
+.PHONY : main/main.o
+
+# target to build an object file
+main/main.cpp.o:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main/main.cpp.o
+.PHONY : main/main.cpp.o
+
+main/main.i: main/main.cpp.i
+
+.PHONY : main/main.i
+
+# target to preprocess a source file
+main/main.cpp.i:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main/main.cpp.i
+.PHONY : main/main.cpp.i
+
+main/main.s: main/main.cpp.s
+
+.PHONY : main/main.s
+
+# target to generate assembly for a file
+main/main.cpp.s:
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main/main.cpp.s
+.PHONY : main/main.cpp.s
 
 utility/audio_wrapper.o: utility/audio_wrapper.cpp.o
 
@@ -357,9 +357,9 @@ utility/audio_wrapper.o: utility/audio_wrapper.cpp.o
 
 # target to build an object file
 utility/audio_wrapper.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/audio_wrapper.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/audio_wrapper.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/audio_wrapper.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/audio_wrapper.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/audio_wrapper.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/audio_wrapper.cpp.o
 .PHONY : utility/audio_wrapper.cpp.o
 
 utility/audio_wrapper.i: utility/audio_wrapper.cpp.i
@@ -368,9 +368,9 @@ utility/audio_wrapper.i: utility/audio_wrapper.cpp.i
 
 # target to preprocess a source file
 utility/audio_wrapper.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/audio_wrapper.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/audio_wrapper.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/audio_wrapper.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/audio_wrapper.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/audio_wrapper.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/audio_wrapper.cpp.i
 .PHONY : utility/audio_wrapper.cpp.i
 
 utility/audio_wrapper.s: utility/audio_wrapper.cpp.s
@@ -379,9 +379,9 @@ utility/audio_wrapper.s: utility/audio_wrapper.cpp.s
 
 # target to generate assembly for a file
 utility/audio_wrapper.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/audio_wrapper.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/audio_wrapper.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/audio_wrapper.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/audio_wrapper.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/audio_wrapper.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/audio_wrapper.cpp.s
 .PHONY : utility/audio_wrapper.cpp.s
 
 utility/image_manager.o: utility/image_manager.cpp.o
@@ -390,9 +390,9 @@ utility/image_manager.o: utility/image_manager.cpp.o
 
 # target to build an object file
 utility/image_manager.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/image_manager.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/image_manager.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/image_manager.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/image_manager.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/image_manager.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/image_manager.cpp.o
 .PHONY : utility/image_manager.cpp.o
 
 utility/image_manager.i: utility/image_manager.cpp.i
@@ -401,9 +401,9 @@ utility/image_manager.i: utility/image_manager.cpp.i
 
 # target to preprocess a source file
 utility/image_manager.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/image_manager.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/image_manager.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/image_manager.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/image_manager.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/image_manager.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/image_manager.cpp.i
 .PHONY : utility/image_manager.cpp.i
 
 utility/image_manager.s: utility/image_manager.cpp.s
@@ -412,9 +412,9 @@ utility/image_manager.s: utility/image_manager.cpp.s
 
 # target to generate assembly for a file
 utility/image_manager.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/image_manager.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/image_manager.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/image_manager.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/image_manager.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/image_manager.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/image_manager.cpp.s
 .PHONY : utility/image_manager.cpp.s
 
 utility/opencv_manager.o: utility/opencv_manager.cpp.o
@@ -423,9 +423,9 @@ utility/opencv_manager.o: utility/opencv_manager.cpp.o
 
 # target to build an object file
 utility/opencv_manager.cpp.o:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/opencv_manager.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/opencv_manager.cpp.o
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/opencv_manager.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/opencv_manager.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/opencv_manager.cpp.o
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/opencv_manager.cpp.o
 .PHONY : utility/opencv_manager.cpp.o
 
 utility/opencv_manager.i: utility/opencv_manager.cpp.i
@@ -434,9 +434,9 @@ utility/opencv_manager.i: utility/opencv_manager.cpp.i
 
 # target to preprocess a source file
 utility/opencv_manager.cpp.i:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/opencv_manager.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/opencv_manager.cpp.i
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/opencv_manager.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/opencv_manager.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/opencv_manager.cpp.i
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/opencv_manager.cpp.i
 .PHONY : utility/opencv_manager.cpp.i
 
 utility/opencv_manager.s: utility/opencv_manager.cpp.s
@@ -445,9 +445,9 @@ utility/opencv_manager.s: utility/opencv_manager.cpp.s
 
 # target to generate assembly for a file
 utility/opencv_manager.cpp.s:
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image.dir/build.make src/CMakeFiles/image.dir/utility/opencv_manager.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/audio.dir/build.make src/CMakeFiles/audio.dir/utility/opencv_manager.cpp.s
-	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/generic.dir/build.make src/CMakeFiles/generic.dir/utility/opencv_manager.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/image_test.dir/build.make src/CMakeFiles/image_test.dir/utility/opencv_manager.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/utility/opencv_manager.cpp.s
+	cd /home/martin/Documents/Utec/Clases/ADA/fourier/code && $(MAKE) -f src/CMakeFiles/hough.dir/build.make src/CMakeFiles/hough.dir/utility/opencv_manager.cpp.s
 .PHONY : utility/opencv_manager.cpp.s
 
 # Help Target
@@ -459,11 +459,11 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... image"
-	@echo "... audio"
+	@echo "... image_test"
+	@echo "... main"
 	@echo "... edit_cache"
+	@echo "... hough"
 	@echo "... rebuild_cache"
-	@echo "... generic"
 	@echo "... list_install_components"
 	@echo "... algorithms/fft.o"
 	@echo "... algorithms/fft.i"
@@ -471,15 +471,15 @@ help:
 	@echo "... applications/fourier_audio.o"
 	@echo "... applications/fourier_audio.i"
 	@echo "... applications/fourier_audio.s"
-	@echo "... main/audio.o"
-	@echo "... main/audio.i"
-	@echo "... main/audio.s"
-	@echo "... main/generic.o"
-	@echo "... main/generic.i"
-	@echo "... main/generic.s"
-	@echo "... main/image.o"
-	@echo "... main/image.i"
-	@echo "... main/image.s"
+	@echo "... main/hough.o"
+	@echo "... main/hough.i"
+	@echo "... main/hough.s"
+	@echo "... main/image_test.o"
+	@echo "... main/image_test.i"
+	@echo "... main/image_test.s"
+	@echo "... main/main.o"
+	@echo "... main/main.i"
+	@echo "... main/main.s"
 	@echo "... utility/audio_wrapper.o"
 	@echo "... utility/audio_wrapper.i"
 	@echo "... utility/audio_wrapper.s"
